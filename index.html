@@ -1,0 +1,299 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="color-scheme" content="light dark">
+    <meta name="description" content="Titus Mabonga Busolo — Computer Science student at Kabarak University working in Java (Spring Boot), UI/UX design and Human-Computer Interaction.">
+    <title>Titus Busolo — Software Engineering & UI/UX Portfolio</title>
+    <script>document.documentElement.classList.add('js')</script>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%23111314'/%3E%3Ctext x='16' y='22' font-family='Arial' font-size='15' fill='%23f4f3ed' text-anchor='middle'%3EBT%3C/text%3E%3C/svg%3E">
+    <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+    <link rel="preconnect" href="https://upload.wikimedia.org" crossorigin>
+    <link rel="stylesheet" href="styles.css?v=10">
+    <script defer src="navigation.js?v=10"></script>
+    <script defer src="contact.js?v=10"></script>
+    <script defer src="garden.js?v=10"></script>
+  </head>
+  <body>
+    <a class="skip" href="#main">Skip to content</a>
+    <header class="site-header">
+      <a class="brand" href="#home" aria-label="Titus Busolo, home">BT<span>.</span></a>
+      <button class="menu-toggle" id="menu-toggle" aria-expanded="false" aria-controls="navigation">Menu <span aria-hidden="true">☰</span></button>
+      <nav class="navigation" id="navigation" aria-label="Main navigation"><a href="#home" aria-current="location">Home</a><a href="#about">About</a><a href="#skills">Skills</a><a href="#featured-projects">Featured Projects</a><a href="#experience">Experience</a><a href="#contact">Contact</a></nav>
+    </header>
+    <canvas id="garden" class="ambient-canvas" aria-hidden="true"></canvas>
+    <main id="main">
+      <section class="hero" id="home" aria-labelledby="name">
+        <div class="hero-copy">
+          <p class="eyebrow availability"><span class="status-dot" aria-hidden="true"></span>AVAILABLE FOR WORK · NAIROBI, KENYA</p>
+          <h1 class="name" id="name"><span>BUSOLO</span><span>TITUS</span></h1>
+          <p class="role">COMPUTER SCIENTIST / SOFTWARE ENGINEER & UI/UX DESIGNER</p>
+          <div class="tags"><span>Java · Spring Boot</span><span>UI / UX · Figma</span><span>HCI</span></div>
+          <div class="hero-actions"><a class="hero-action primary" href="#featured-projects">View projects</a><a class="hero-action" href="#contact">Get in touch</a></div>
+        </div>
+        <a class="scroll-cue" href="#about" aria-label="Scroll down to explore"><svg viewBox="0 0 24 30" fill="none" stroke="currentColor" stroke-width="1.2" aria-hidden="true"><path d="M12 2v23m-7-7 7 7 7-7"/></svg><span>SCROLL TO EXPLORE</span></a>
+        <div class="hero-bottom">
+          <p class="small-note">A little curiosity.<br>A thoughtful approach.</p>
+          <button class="pause" id="pause-motion" data-motion-toggle aria-pressed="false"><svg viewBox="0 0 12 12" fill="currentColor" aria-hidden="true"><path d="M3 2h2v8H3zm4 0h2v8H7z"/></svg><span>Pause motion</span></button>
+        </div>
+      </section>
+      <section class="about-section content-section" id="about" aria-labelledby="about-heading">
+        <div class="section-inner">
+          <h2 class="about-heading" id="about-heading">About Me</h2>
+          <div class="about-layout">
+            <div class="about-copy">
+              <p>I’m a Computer Science student at Kabarak University with a strong foundation in software engineering and UI/UX design.</p>
+              <p>I work in Java (Spring Boot), HTML/CSS and Figma, and I’m interested in solving real-world, large-scale problems where Human-Computer Interaction (HCI) meets software engineering.</p>
+              <p>I’m very good at using AI tools in my everyday workflow — for research, prototyping, coding and documentation — which lets me move from idea to working product much faster.</p>
+              <p>I’m eager to contribute to a research-driven team and to grow into a long-term role.</p>
+              <div class="about-links"><a class="github-button" href="https://github.com/Btsolo" target="_blank" rel="noopener"><span>GitHub</span><span aria-hidden="true">↗</span></a><button class="github-button cv-button" type="button" disabled aria-label="CV download will be added"><span>CV</span><span aria-hidden="true">↗</span></button></div>
+            </div>
+            <div class="about-approach">
+              <details class="approach-item" name="about-approach" open>
+                <summary><span class="row-number" aria-hidden="true">①</span><span>Java / Development</span><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" aria-hidden="true"><path d="m4 6 4 4 4-4"/></svg></summary>
+                <div class="approach-content">
+                  <p>Java with Spring Boot is my main development stack. I have used it to design a backend pipeline that fetches, processes and summarises Kenya Gazette documents, and I also work with HTML/CSS, PHP (Laravel) and MySQL.</p>
+                </div>
+              </details>
+              <details class="approach-item" name="about-approach">
+                <summary><span class="row-number" aria-hidden="true">②</span><span>UI / UX Design & HCI</span><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" aria-hidden="true"><path d="m4 6 4 4 4-4"/></svg></summary>
+                <div class="approach-content">
+                  <p>I use Figma for wireframing, prototyping and high-fidelity UI design, and back design decisions with HCI research: user interviews, personas, empathy maps and usability testing.</p>
+                </div>
+              </details>
+              <details class="approach-item" name="about-approach">
+                <summary><span class="row-number" aria-hidden="true">③</span><span>Research & Documentation</span><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" aria-hidden="true"><path d="m4 6 4 4 4-4"/></svg></summary>
+                <div class="approach-content">
+                  <p>I document what I build: a 25-page research proposal for Smart Gazette, a 20-page SRS for the Lost & Found Portal, and ERDs, DFDs and architecture docs for team projects.</p>
+                  <p>I pair that with AI-assisted research and drafting, so documentation keeps pace with development.</p>
+                </div>
+              </details>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="skills-section content-section" id="skills" aria-labelledby="skills-heading">
+        <div class="section-inner">
+          <div class="skills-intro">
+            <h2 id="skills-heading">Skills</h2>
+          </div>
+          <div class="skill-groups">
+            <div class="skill-group">
+              <h3 class="skill-group-title">Languages</h3>
+              <ul class="skill-items">
+                <li class="skill-item"><span class="tool-icon"><img src="assets/icons/java.svg" alt="" width="24" height="24" loading="lazy"></span><div><h4>Java</h4><p>Object-oriented programming, backend applications</p></div></li>
+                <li class="skill-item"><span class="tool-icon"><img src="assets/icons/sql.svg" alt="" width="24" height="24" loading="lazy"></span><div><h4>SQL</h4><p>Queries, joins and database design</p></div></li>
+                <li class="skill-item"><span class="tool-icon"><img src="assets/icons/html.svg" alt="" width="24" height="24" loading="lazy"></span><div><h4>HTML &amp; CSS</h4><p>Semantic, responsive web interfaces</p></div></li>
+              </ul>
+            </div>
+            <div class="skill-group">
+              <h3 class="skill-group-title">Also familiar with</h3>
+              <ul class="skill-items">
+                <li class="skill-item"><span class="tool-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/cplusplus/cplusplus-original.svg" alt="" width="24" height="24" loading="lazy"></span><div><h4>C++</h4><p>Object-oriented programming basics</p></div></li>
+                <li class="skill-item"><span class="tool-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/python/python-original.svg" alt="" width="24" height="24" loading="lazy"></span><div><h4>Python</h4><p>Scripting and problem solving</p></div></li>
+                <li class="skill-item"><span class="tool-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/php/php-original.svg" alt="" width="24" height="24" loading="lazy"></span><div><h4>PHP</h4><p>Server-side web development with Laravel</p></div></li>
+                <li class="skill-item"><span class="tool-icon"><img src="assets/icons/javascript.svg" alt="" width="24" height="24" loading="lazy"></span><div><h4>JavaScript</h4><p>Interactive pages and DOM scripting</p></div></li>
+              </ul>
+            </div>
+            <div class="skill-group">
+              <h3 class="skill-group-title">Frameworks &amp; libraries</h3>
+              <ul class="skill-items">
+                <li class="skill-item"><span class="tool-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/spring/spring-original.svg" alt="" width="24" height="24" loading="lazy"></span><div><h4>Spring Boot</h4><p>REST APIs and backend services</p></div></li>
+                <li class="skill-item"><span class="tool-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/react/react-original.svg" alt="" width="24" height="24" loading="lazy"></span><div><h4>React</h4><p>Component-based user interfaces</p></div></li>
+                <li class="skill-item"><span class="tool-icon"><img src="assets/icons/thymeleaf.svg" alt="" width="24" height="24" loading="lazy"></span><div><h4>Thymeleaf</h4><p>Server-rendered HTML templates</p></div></li>
+                <li class="skill-item"><span class="tool-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/tailwindcss/tailwindcss-original.svg" alt="" width="24" height="24" loading="lazy"></span><div><h4>Tailwind CSS</h4><p>Utility-first styling</p></div></li>
+              </ul>
+            </div>
+            <div class="skill-group">
+              <h3 class="skill-group-title">Databases</h3>
+              <ul class="skill-items">
+                <li class="skill-item"><span class="tool-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/postgresql/postgresql-original.svg" alt="" width="24" height="24" loading="lazy"></span><div><h4>PostgreSQL</h4><p>Relational data and queries</p></div></li>
+                <li class="skill-item"><span class="tool-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/mysql/mysql-original.svg" alt="" width="24" height="24" loading="lazy"></span><div><h4>MySQL</h4><p>Schemas for web applications</p></div></li>
+                <li class="skill-item"><span class="tool-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/mongodb/mongodb-original.svg" alt="" width="24" height="24" loading="lazy"></span><div><h4>MongoDB</h4><p>Document-based storage</p></div></li>
+              </ul>
+            </div>
+            <div class="skill-group">
+              <h3 class="skill-group-title">UI / UX design</h3>
+              <ul class="skill-items">
+                <li class="skill-item"><span class="tool-icon"><img src="assets/icons/figma.svg" alt="" width="24" height="24" loading="lazy"></span><div><h4>Figma</h4><p>Wireframes, prototypes and hi-fi UI</p></div></li>
+                <li class="skill-item"><span class="tool-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M3 12a9 9 0 1 0 18 0 9 9 0 0 0-18 0m6 0a3 3 0 1 0 6 0 3 3 0 0 0-6 0"/></svg></span><div><h4>User research</h4><p>Interviews, personas and usability testing</p></div></li>
+              </ul>
+            </div>
+            <div class="skill-group">
+              <h3 class="skill-group-title">Tools &amp; workflow</h3>
+              <ul class="skill-items">
+                <li class="skill-item"><span class="tool-icon"><img src="assets/icons/github.svg" alt="" width="24" height="24" loading="lazy"></span><div><h4>Git &amp; GitHub</h4><p>Version control, branches and pull requests</p></div></li>
+                <li class="skill-item"><span class="tool-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="m8 7-5 5 5 5m8-10 5 5-5 5M14 4l-4 16"/></svg></span><div><h4>API integration</h4><p>Connecting apps to REST APIs</p></div></li>
+                <li class="skill-item"><span class="tool-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M9 3h6M10 3v6l-5 9a2 2 0 0 0 1.7 3h10.6a2 2 0 0 0 1.7-3l-5-9V3M7.5 15h9"/></svg></span><div><h4>API &amp; unit testing</h4><p>Checking endpoints and code behave as expected</p></div></li>
+                <li class="skill-item"><span class="tool-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/githubactions/githubactions-original.svg" alt="" width="24" height="24" loading="lazy"></span><div><h4>CI/CD</h4><p>Automated build and deploy with GitHub Actions</p></div></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="projects-section content-section" id="featured-projects" aria-labelledby="featured-projects-heading">
+        <div class="section-inner">
+          <div class="chapter-heading">
+            <h2 id="featured-projects-heading">Featured Projects</h2>
+          </div>
+          <div class="project-list">
+            <article class="project-row">
+              <div class="project-visual has-shot">
+                <img class="project-shot" src="assets/projects/community-giving-desktop.webp" alt="Community Giving home page: hero reading “Small gifts, decided together” with Back a project and Set up a giving agent buttons" width="2000" height="1250" loading="lazy" decoding="async">
+              </div>
+              <div class="project-copy">
+                <span class="project-number">PROJECT 01 / NOV 2026</span>
+                <h3>Community Giving</h3>
+                <p class="project-category">PayPal AI Hackathon · Team of three · Frontend owner</p>
+                <ul class="project-tags"><li>Next.js</li><li>PayPal</li><li>AI agents</li><li>FastAPI</li></ul>
+                <p class="project-description">A community giving platform: the group decides where the money goes, AI agents protect it, rules keep it fair, and PayPal (sandbox) moves the money. I built the Next.js website, covering the donor app, project pages and admin console, alongside teammates who owned the FastAPI core API and the AI agents.</p>
+                <div class="project-actions"><a class="project-action" href="https://giving-web.onrender.com" target="_blank" rel="noopener">Live demo <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><path d="M6 18 18 6M6 6h12v12"/></svg></a><a class="source-action" href="https://github.com/The-Panthera-company/Paypal-demo" target="_blank" rel="noopener">Source code <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><path d="M6 18 18 6M6 6h12v12"/></svg></a></div>
+              </div>
+            </article>
+            <article class="project-row">
+              <div class="project-visual has-shot">
+                <img class="project-shot shot-top" src="assets/projects/smart-gazette-light.webp" alt="Smart Gazette home page listing the latest summarised Kenya Gazette notices as cards" width="922" height="2000" loading="lazy" decoding="async">
+              </div>
+              <div class="project-copy">
+                <span class="project-number">PROJECT 02 / 2025</span>
+                <h3>Smart Gazette</h3>
+                <p class="project-category">Personal research project · Sole researcher & developer</p>
+                <ul class="project-tags"><li>Java</li><li>Spring Boot</li><li>AI</li><li>Figma</li></ul>
+                <p class="project-description">An AI-powered platform to improve civic engagement among Kenyan youth. I wrote a 25-page research proposal, designed a pipeline that fetches, processes and summarises Kenya Gazette documents on a Spring Boot backend, and created the full high-fidelity prototype and system architecture.</p>
+                <div class="project-actions"><a class="project-action" href="https://www.figma.com/design/7Q4b29uCzQtR5xLLvNnb5e/Smart-Gazette" target="_blank" rel="noopener">Figma prototype <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><path d="M6 18 18 6M6 6h12v12"/></svg></a><a class="source-action" href="https://github.com/Btsolo/Smart-Gazette" target="_blank" rel="noopener">GitHub & docs <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><path d="M6 18 18 6M6 6h12v12"/></svg></a></div>
+              </div>
+            </article>
+            <article class="project-row">
+              <div class="project-visual has-shot">
+                <img class="project-shot shot-phone" src="assets/projects/lost-and-found-screen.png" alt="Lost & Found Portal hi-fi mobile prototype: welcome screen with Report and Find actions" width="488" height="781" loading="lazy" decoding="async">
+              </div>
+              <div class="project-copy">
+                <span class="project-number">PROJECT 03 / 2025</span>
+                <h3>Kabarak Lost & Found Portal</h3>
+                <p class="project-category">HCI research & design · Lead UX researcher & designer</p>
+                <ul class="project-tags"><li>HCI</li><li>Usability testing</li><li>Figma</li><li>SRS</li></ul>
+                <p class="project-description">A university-wide lost-and-found application. I led the HCI research from problem identification and user interviews, ran usability tests with 14 participants (10 students, 4 administrators) to iterate from mid- to high-fidelity, and wrote the 20-page SRS with personas, empathy maps and DFDs.</p>
+                <div class="project-actions"><a class="project-action" href="https://www.figma.com/design/5XOSRtwNo0eBpoDmRE16Mu/Lost-and-found-Hi-Fi" target="_blank" rel="noopener">Hi-fi prototype <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><path d="M6 18 18 6M6 6h12v12"/></svg></a><button class="source-action" disabled type="button" aria-label="Usability report and SRS link will be added">Report & SRS <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><path d="M6 18 18 6M6 6h12v12"/></svg></button></div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+      <section class="experience-section content-section" id="experience" aria-labelledby="experience-heading">
+        <div class="section-inner">
+          <div class="chapter-heading align-left">
+            <h2 id="experience-heading">Experience</h2>
+          </div>
+          <ol class="experience-timeline">
+            <li class="timeline-label">Work</li>
+            <li class="timeline-entry work">
+              <span class="timeline-dot" aria-hidden="true"></span>
+              <article class="experience-card">
+                <div class="experience-top">
+                  <div class="org-row">
+                    <span class="org-badge has-logo"><img src="assets/logos/kra-120.png" alt="Kenya Revenue Authority logo" width="120" height="120" loading="lazy"></span>
+                    <div>
+                      <h3>Kenya Revenue Authority</h3>
+                      <p>Intern</p>
+                    </div>
+                  </div>
+                  <span class="entry-date">Jan – Mar 2026</span>
+                </div>
+                <ul class="experience-points"><li>Contributed to system demonstrations and program testing.</li><li>Reinforced SQL workflows.</li><li>Supported documentation to streamline data management and task allocation.</li></ul>
+                <ul class="project-tags"><li>SQL</li><li>Testing</li><li>Documentation</li></ul>
+              </article>
+            </li>
+            <li class="timeline-entry work">
+              <span class="timeline-dot" aria-hidden="true"></span>
+              <article class="experience-card">
+                <div class="experience-top">
+                  <div class="org-row">
+                    <span class="org-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><rect x="3" y="7" width="18" height="13" rx="1"/><path d="M9 7V4h6v3M3 12h18"/></svg></span>
+                    <div>
+                      <h3>Freelance</h3>
+                      <p>Data Entry</p>
+                    </div>
+                  </div>
+                  <span class="entry-date">May 2025</span>
+                </div>
+                <ul class="experience-points"><li>Executed data entry and verification tasks.</li><li>Demonstrated high attention to detail, reliability and time management.</li></ul>
+                <ul class="project-tags"><li>Data verification</li><li>Attention to detail</li></ul>
+              </article>
+            </li>
+            <li class="timeline-label">Education</li>
+            <li class="timeline-entry education">
+              <span class="timeline-dot" aria-hidden="true"></span>
+              <article class="experience-card">
+                <div class="experience-top">
+                  <div class="org-row">
+                    <span class="org-badge has-logo"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Kabarak_University_Logo.png/120px-Kabarak_University_Logo.png" alt="Kabarak University logo" width="120" height="120" loading="lazy"></span>
+                    <div>
+                      <h3>Kabarak University</h3>
+                      <p>BSc Computer Science</p>
+                    </div>
+                  </div>
+                  <span class="entry-date">2022 – Present</span>
+                </div>
+                <ul class="experience-points"><li>Projects in HCI research, UI/UX design and team software engineering, including the Lost & Found Portal and Sole Proprietor CRM.</li></ul>
+                <ul class="project-tags"><li>Computer Science</li><li>HCI</li><li>Software Engineering</li></ul>
+              </article>
+            </li>
+            <li class="timeline-entry education">
+              <span class="timeline-dot" aria-hidden="true"></span>
+              <article class="experience-card">
+                <div class="experience-top">
+                  <div class="org-row">
+                    <span class="org-badge has-logo"><img src="assets/logos/kapsabet-120.png" alt="Kapsabet High School crest" width="215" height="120" loading="lazy"></span>
+                    <div>
+                      <h3>Kapsabet High School</h3>
+                      <p>KCSE · Mean grade B+</p>
+                    </div>
+                  </div>
+                  <span class="entry-date">2018 – 2022</span>
+                </div>
+                <ul class="project-tags"><li>Secondary education</li></ul>
+              </article>
+            </li>
+          </ol>
+        </div>
+      </section>
+      <section class="contact-section content-section" id="contact" aria-labelledby="contact-heading">
+        <div class="section-inner">
+          <div class="contact-layout">
+          <h2 class="contact-title" id="contact-heading">CONTACT</h2>
+          <div class="contact-aside">
+            <ul class="contact-details">
+              <li><a href="mailto:titusbusolo@gmail.com" aria-label="Email titusbusolo@gmail.com"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="1"/><path d="m3 7 9 6 9-6"/></svg><span>titusbusolo@gmail.com</span></a></li>
+              <li><a href="tel:+254729635518" aria-label="Call +254 729 635 518"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M5 3h4l2 5-2.5 1.5a11 11 0 0 0 6 6L16 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 5a2 2 0 0 1 2-2Z"/></svg><span>+254 729 635 518</span></a></li>
+            </ul>
+          </div>
+          <form id="contact-form" aria-describedby="contact-note">
+            <div class="contact-field"><label for="contact-name">NAME</label><input id="contact-name" name="name" autocomplete="name" required maxlength="100"></div>
+            <div class="contact-field"><label for="contact-email">EMAIL</label><input id="contact-email" type="email" name="email" autocomplete="email" required maxlength="254"></div>
+            <div class="contact-field"><label for="contact-subject">SUBJECT</label><input id="contact-subject" name="subject" required maxlength="160"></div>
+            <div class="contact-field"><label for="contact-message">MESSAGE</label><textarea id="contact-message" name="message" rows="4" required maxlength="5000"></textarea></div>
+            <div class="contact-bottom">
+              <button class="send-button" type="submit">SEND MESSAGE <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><path d="m21 3-7 18-4-8-8-4 19-6Zm-11 10L21 3"/></svg></button>
+              <p id="contact-note">Opens your email app with the message ready to send.</p>
+            </div>
+          </form>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="portfolio-footer">
+      <div class="footer-top">
+        <div>
+          <a class="footer-name" href="#home">BUSOLO TITUS</a>
+          <p>SOFTWARE ENGINEERING / UI & UX DESIGN</p>
+          <p class="footer-contact"><a href="mailto:titusbusolo@gmail.com">titusbusolo@gmail.com</a></p>
+        </div>
+        <div class="footer-links" aria-label="Professional links"><a href="https://github.com/Btsolo" target="_blank" rel="noopener">GitHub ↗</a><button type="button" disabled aria-label="CV link will be added">CV ↗</button><a href="mailto:titusbusolo@gmail.com">Email ↗</a></div>
+      </div>
+      <div class="footer-bottom"><span>© 2026 Busolo Titus · All rights reserved</span><span class="footer-location"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M12 21s-7-6.2-7-11.5a7 7 0 0 1 14 0C19 14.8 12 21 12 21Z"/><circle cx="12" cy="9.5" r="2.5"/></svg>Nairobi, Kenya</span><span class="footer-built">Built with HTML, CSS & JavaScript</span></div>
+    </footer>
+    <a href="#home" class="float-top" aria-label="Back to top"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M12 19V5m-6 6 6-6 6 6"/></svg></a>
+    <button class="ambient-toggle" id="global-motion" data-motion-toggle aria-pressed="false" hidden><span>Pause motion</span></button>
+  </body>
+</html>
