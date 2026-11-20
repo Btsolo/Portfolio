@@ -4,16 +4,17 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
+    <meta name="robots" content="noai, noimageai">
     <meta name="description" content="Titus Mabonga Busolo — Computer Science student at Kabarak University working in Java (Spring Boot), UI/UX design and Human-Computer Interaction.">
     <title>Titus Busolo — Software Engineering & UI/UX Portfolio</title>
     <script>document.documentElement.classList.add('js')</script>
     <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%23111314'/%3E%3Ctext x='16' y='22' font-family='Arial' font-size='15' fill='%23f4f3ed' text-anchor='middle'%3EBT%3C/text%3E%3C/svg%3E">
     <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
     <link rel="preconnect" href="https://upload.wikimedia.org" crossorigin>
-    <link rel="stylesheet" href="styles.css?v=10">
-    <script defer src="navigation.js?v=10"></script>
-    <script defer src="contact.js?v=10"></script>
-    <script defer src="garden.js?v=10"></script>
+    <link rel="stylesheet" href="styles.css?v=11">
+    <script defer src="navigation.js?v=11"></script>
+    <script defer src="contact.js?v=11"></script>
+    <script defer src="garden.js?v=11"></script>
   </head>
   <body>
     <a class="skip" href="#main">Skip to content</a>
@@ -250,7 +251,7 @@
           <h2 class="contact-title" id="contact-heading">CONTACT</h2>
           <div class="contact-aside">
             <ul class="contact-details">
-              <li><a href="mailto:titusbusolo@gmail.com" aria-label="Email titusbusolo@gmail.com"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="1"/><path d="m3 7 9 6 9-6"/></svg><span>titusbusolo@gmail.com</span></a></li>
+              <li><a href="#contact" data-email aria-label="Email"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="1"/><path d="m3 7 9 6 9-6"/></svg><span data-email-text>Email</span></a></li>
             </ul>
           </div>
           <form id="contact-form" aria-describedby="contact-note">
@@ -272,9 +273,9 @@
         <div>
           <a class="footer-name" href="#home">BUSOLO TITUS</a>
           <p>SOFTWARE ENGINEERING / UI & UX DESIGN</p>
-          <p class="footer-contact"><a href="mailto:titusbusolo@gmail.com">titusbusolo@gmail.com</a></p>
+          <p class="footer-contact"><a href="#contact" data-email data-email-text>Email</a></p>
         </div>
-        <div class="footer-links" aria-label="Professional links"><a href="https://github.com/Btsolo" target="_blank" rel="noopener">GitHub ↗</a><a href="assets/Titus-Busolo-CV.pdf" target="_blank" rel="noopener">CV ↗</a><a href="mailto:titusbusolo@gmail.com">Email ↗</a></div>
+        <div class="footer-links" aria-label="Professional links"><a href="https://github.com/Btsolo" target="_blank" rel="noopener">GitHub ↗</a><a href="assets/Titus-Busolo-CV.pdf" target="_blank" rel="noopener">CV ↗</a><a href="#contact" data-email>Email ↗</a></div>
       </div>
       <div class="footer-bottom"><span>© 2026 Busolo Titus · All rights reserved</span><span class="footer-location"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M12 21s-7-6.2-7-11.5a7 7 0 0 1 14 0C19 14.8 12 21 12 21Z"/><circle cx="12" cy="9.5" r="2.5"/></svg>Nairobi, Kenya</span><span class="footer-built">Built with HTML, CSS & JavaScript</span></div>
     </footer>
